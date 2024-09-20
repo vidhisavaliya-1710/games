@@ -1,0 +1,187 @@
+/* Calculator */
+
+.main_box{
+    width: 270px;
+    height: 400px;
+    background-color: lightgrey;
+    padding: 10px;
+}
+.display{
+    width: 260px;
+    height: 50px;
+    font-size: 25px;
+    text-align: right;
+    background-color: white;
+}
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b0,#add,#sub,#mul,#div,#ans,#clear{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+#back{
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+}
+
+/* tic toc*/
+
+ .mainbox{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    
+ }
+input[type='button']{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+button{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* input[type='button']:hover{
+    background-color: rgb(85, 154, 224);
+} */
+
+/* todo list */
+.bg_color{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    /* text-align: center; */
+    padding: 70px 350px;
+}
+.main_part{
+    background-color: rgb(232, 244, 247);
+    padding: 30px;
+    height: 400px;
+    /* margin:150px 300px ; */
+    
+}
+input[type='text']{
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+}
+
+.btn{
+    margin-left: 40px;
+    background-color: #7E50D9 !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    color: white !important;
+    padding: 10px 20px;
+}
+.from_sec{
+    display: flex;
+    justify-content: center;
+}
+.content{
+	background-color: ghostwhite;
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 22px;
+	text-align: left;
+    /* width: 200px; */
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    list-style: none;
+}
+.btn1{
+    background-color: green !important;
+    
+}
+.btn2{
+    background-color: #FF5845 !important;
+}
+
+/* student result */
+.text{
+    font-size: 18px !important;
+    width: 200px !important;
+    height: 30px !important;
+    margin-left: 10px !important;
+    border: 1px solid #e1d7d7 !important;
+}
+.bg_sec{
+    background-color: #a6c1ee;
+}
+.btn3{
+    /* margin-left: 40px; */
+    background-color: lightblue !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    color: black !important;
+    padding: 10px 20px;
+}
+
+.emi_sec{
+    display: flex;
+    justify-content: center;
+}
+.bg_emi{
+    background-color: rgb(225, 210, 212);
+    padding: 30px;
+    margin: 50px;
+
+}
+.txt{
+    font-size: 18px !important;
+    width: 250px !important;
+    height: 30px !important;
+    margin-left: 10px !important;
+    border: 1px solid #e1d7d7 !important;
+}
+.lbl{
+    font-size: 18px;
+    font-weight: 500;
+}
+.emi_btn{
+    background-color: rgb(245, 207, 54);
+    color: white;
+    margin-left: 100px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+/* age calculator */
+.age_sec{
+    display: flex;
+    justify-content: center;
+    background-color: #e0d8d8;
+    /* box-shadow: 2px 2px 2px #897e7e; */
+    height: 100vh;
+}
+.age_box{
+    box-shadow: 0px 0px 5px #897e7e;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.btn_mainsec{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.btn_puzzal{
+    background-color: #5ca1e1;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    transition: .3s;
+}
+.btn_puzzal:hover {
+    box-shadow: 8px 8px rgba(92, 161, 225 ,.3);
+    transition: .3s;
+  }
